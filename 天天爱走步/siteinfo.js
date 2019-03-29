@@ -4,8 +4,8 @@ module.exports = {
     acid: "2",
     multiid: "0",
     version: "4.0.9",
-    // siteroot: "https://sport.heidoupay.com/app/index.php",
-    siteroot: "https://www.sanchunh.cn/app/index.php",
+    siteroot: "https://sport.heidoupay.com/app/index.php",
+    //siteroot: "https://www.sanchunh.cn/app/index.php",
     design_method: "3"
 };
 
