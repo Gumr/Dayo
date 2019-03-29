@@ -1,0 +1,59 @@
+.wrap{
+  background-color: #EEEEEE;
+  height: 100vh;
+  padding: 30rpx 0 0 0;
+  box-sizing: border-box;
+}
+
+.card{
+  border-radius: 15rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  width: 92vw;
+  margin: 0 auto 30rpx auto;
+  padding: 30rpx 20rpx;
+  box-sizing: border-box;
+}
+
+.wxid{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 28rpx;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.copyBtn{
+  margin: 0;
+  padding: 0;
+  width: 100rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 24rpx;
+  background-color: #fff;
+  border: 1rpx solid #000;
+  color: #000;
+}
+
+.title{
+  width: 100%;
+  text-align: left;
+  font-size: 28rpx;
+}
+
+.qrcode{
+  flex-direction: column;
+  height: 83.5vh;
+}
+
+.saveQrcode{
+  width: 100%;
+  height: 85rpx;
+  line-height: 85rpx;
+  color: #fff;
+  background-image: linear-gradient(-90deg,#26BCC5 2%,#1DD49E 97%);
+}

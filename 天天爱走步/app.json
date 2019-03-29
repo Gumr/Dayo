@@ -1,0 +1,65 @@
+{
+    "pages": [
+        "bh_step/pages/index/index",
+        "bh_step/pages/goodsconvert/goodsconvert",
+        "bh_step/pages/user/user",
+        "bh_step/pages/task/task",
+        "bh_step/pages/currencylog/currencylog",
+        "bh_step/pages/cash/cash",
+        "bh_step/pages/goods/goods",
+        "bh_step/pages/firends/firends",
+        "bh_step/pages/question/question",
+        "bh_step/pages/address/address",
+        "bh_step/pages/order/order",
+        "bh_step/pages/currencyGoods/currencyGoods",
+        "bh_step/pages/my/my",
+        "bh_step/pages/step-diary/step-diary",
+        "bh_step/pages/wealthRank/wealthRank",
+        "bh_step/pages/voucher/voucher",
+        "bh_step/pages/qrvoucher/qrvoucher",
+        "bh_step/pages/category/category",
+        "bh_step/pages/sigin/sigin",
+        "bh_step/pages/goodscreateimg/goodscreateimg",
+        "bh_step/pages/moneyRecord/moneyRecord",
+        "bh_step/pages/web/web",
+        "bh_step/pages/about/about"
+    ],
+    "window": {
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTitleText": "",
+        "navigationBarTextStyle": "black"
+    },
+    "navigateToMiniProgramAppIdList": [
+        "wx210e1633376dce4a" ,"wx132ef8dbfd50d204"
+    ],
+    "tabBar": {
+        "color": "#909090",
+        "selectedColor": "#26BCC5",
+        "list": [
+            {
+                "pagePath": "bh_step/pages/index/index",
+                "text": "首页",
+                "iconPath": "bh_step/images/home_icon.png",
+                "selectedIconPath": "bh_step/images/home_icon_down.png"
+            },
+            {
+                "pagePath": "bh_step/pages/wealthRank/wealthRank",
+                "text": "能量榜",
+                "iconPath": "bh_step/images/wealth_rank.png",
+                "selectedIconPath": "bh_step/images/wealth_rank_down.png"
+            },
+            {
+                "pagePath": "bh_step/pages/my/my",
+                "text": "我的",
+                "iconPath": "bh_step/images/my_icon.png",
+                "selectedIconPath": "bh_step/images/my_icon_down.png"
+            }
+        ]
+    },
+    "networkTimeout": {
+        "request": 15000,
+        "downloadFile": 15000
+    },
+    "debug": true
+}

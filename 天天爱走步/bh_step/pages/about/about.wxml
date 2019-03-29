@@ -1,0 +1,22 @@
+<view class="wrap">
+    <view class='wxidAndCopy card'>
+      <view class='wxid'>
+        <view>
+          微信账户：
+        </view>
+        <view class='bold'>
+          {{wxid}}
+        </view>
+      </view>
+      <button class='copyBtn' bindtap='copyText'>
+        复制
+      </button>
+    </view>
+    <view class='qrcode card'>
+      <view class='title'>
+        微信账户：
+      </view>
+      <image mode='widthFix' src='{{qrcoeSrc}}'></image>
+      <button class='saveQrcode' bindtap='saveImg'>保存二维码至手机</button>
+    </view>
+</view>

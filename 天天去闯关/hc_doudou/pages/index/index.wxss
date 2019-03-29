@@ -1,0 +1,539 @@
+.top {
+    padding-top: 24rpx;
+}
+
+.blur {
+    filter: blur(20rpx);
+}
+
+page {
+    background: #f6f6f6;
+}
+
+.music {
+    width: 90%;
+    margin: 30rpx auto;
+}
+
+.voices {
+    width: 40rpx;
+    height: 40rpx;
+    background: rgba(255, 254, 254, 0.966);
+    padding: 10rpx;
+    border-radius: 30rpx;
+    display: block;
+}
+
+.search {
+    width: 80%;
+    background: #fff;
+    height: 46rpx;
+    line-height: 46rpx;
+    border-radius: 30rpx;
+    padding: 10rpx 3%;
+    font-size: 26rpx;
+    color: #333;
+}
+
+.search image {
+    width: 30rpx;
+    height: 30rpx;
+    margin-right: 20rpx;
+    display: block;
+}
+
+.tips {
+    width: 90%;
+    margin: 30rpx 5% 0;
+    display: block;
+}
+
+.game {
+    width: 90%;
+    margin: 30rpx 5%;
+    margin-top: 0;
+}
+
+.game > view {
+  color: #28BBA7;
+  font-size: 26rpx;
+}
+
+.game>view:nth-child(1) {
+    /* font-size: 32rpx; */
+    /* color: #383435; */
+    font-weight: bolder;
+}
+
+.game>view:nth-child(2) {
+    /* font-size: 28rpx; */
+    /* color: #666666; */
+}
+
+.goods {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 92%;
+    padding: 0 4% 120rpx;
+}
+
+.item image {
+    width: 100%;
+    display: block;
+}
+
+.detail {
+    background: #fff;
+}
+
+.item {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0 1.5% 20rpx;
+    width: 47%;
+    font-size: 28rpx;
+    color: #333333;
+}
+
+.item .dcontent {
+  padding: 10rpx;
+  line-height: 1.14;
+}
+
+.item .dtitle {
+  text-align: left;
+  height: 72rpx;
+  line-height: 36rpx;
+  overflow: hidden;
+}
+
+.item .dtitle .dlabel{
+  background: -webkit-linear-gradient(top,#F44B5E,#FF8186);
+  color: #fff;
+  font-size: 22rpx;
+  margin-right: 6rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  padding: 0 4rpx;
+}
+
+.item .dcontent .dprice {
+  font-size: 22rpx;
+  color: #999;
+  text-align: left;
+  text-decoration: line-through;
+}
+
+.item .dfooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10rpx;
+}
+
+.item .dfooter .dbtn {
+  display: inline-block;
+  width: 120rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  background: #0DAF99;
+  color: #fff;
+  font-size: 26rpx;
+  border-radius: 8rpx;
+}
+
+.item:after {
+    border-radius: 10rpx;
+    border: none;
+}
+
+.detail {
+    /* padding: 0 0 10rpx; */
+    border-radius: 10rpx;
+}
+
+/* .detail>view { */
+    /* height: 40rpx;
+    line-height: 40rpx; */
+/* } */
+
+.price {
+    color: #0bbba6;
+}
+
+.model {
+    font-size: 32rpx;
+}
+
+.btn {
+    margin-top: 20rpx;
+    width: 100%;
+    height: 60rpx;
+    line-height: 60rpx;
+    color: #fff;
+    font-size: 30rpx;
+    border-radius: 10rpx;
+    background: -webkit-linear-gradient(left,#10ddbe,#0bbba6);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    font-size: 24rpx;
+    /* border-top: 2rpx solid #ffdeea; */
+}
+
+.footer image {
+    display: block;
+    width: 50rpx;
+    height: 50rpx;
+}
+
+.tabbar {
+    background: #fff;
+    color: #fe5a96;
+    padding: 6rpx 0 0;
+    margin: 0;
+    width: 50%;
+    border: none;
+    border-radius: 0;
+    font-size: 30rpx;
+}
+
+.tabbar:after {
+    border: none;
+}
+
+.tabbar>view {
+    height: 56rpx;
+    line-height: 56rpx;
+}
+
+.shadow {
+    background-color: hsla(0,0%,100%,0.4);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.pay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 88%;
+    padding: 30rpx 3%;
+    background: #fff;
+    border-radius: 10rpx;
+    box-shadow: 3rpx 3rpx 3rpx 6rpx #0daf992c;
+}
+
+.pay image {
+    width: 40rpx;
+    height: 40rpx;
+    display: block;
+    margin-right: 20rpx;
+}
+
+.paytitle {
+    color: #0daf99;
+    text-align: center;
+    font-size: 40rpx;
+    margin-bottom: 30rpx;
+}
+
+.close {
+    position: absolute;
+    top: 30rpx;
+    right: 30rpx;
+    font-size: 40rpx;
+}
+
+.closeNotice {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40rpx;
+    line-height: 40rpx;
+}
+
+.money {
+    font-size: 30rpx;
+    color: #333;
+    margin: 50rpx 0;
+}
+
+.leave {
+    color: #FB1F7F;
+}
+
+.change {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.changeitem {
+    width: 28%;
+    margin: 0 2%;
+    height: 160rpx;
+    line-height: 160rpx;
+    margin-bottom: 30rpx;
+    color: #FB1F7F;
+    border: 4rpx solid #FB1F7F;
+    border-radius: 6rpx;
+    text-align: center;
+    font-size: 28rpx;
+}
+
+.num {
+    font-size: 50rpx;
+}
+
+.Ncontent {
+    padding: 30rpx;
+    font-size: 30rpx;
+}
+
+.balance {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 66%;
+    padding: 30rpx 3%;
+    background: #fff;
+    border-radius: 10rpx;
+    box-shadow: 6rpx 6rpx 6rpx #FDA3BD;
+}
+
+.balance image {
+    width: 340rpx;
+    margin-bottom: 30rpx;
+}
+
+.payBtn {
+    font-size: 30rpx;
+    color: #fff;
+    background: #FB1F7F;
+    height: 80rpx;
+    line-height: 80rpx;
+    border-radius: 40rpx;
+    width: 56%;
+    margin-top: 30rpx;
+    text-align: center;
+}
+
+.tryBtn {
+    position: fixed;
+    right: 36rpx;
+    bottom: 150rpx;
+    background: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+.tryBtn .try {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+}
+
+.tryBtn .try1 {
+  position:absolute;
+  top:28rpx;
+  left:40rpx;
+  width: 50rpx;
+  height: 38rpx;
+  border-radius: 50%;
+}
+
+.tryBtn .try2 {
+  position:absolute;
+top:82rpx;
+left:36rpx;
+font-size:20rpx;
+color:#fff;
+
+}
+
+.tryBtn:after {
+    border: 0;
+}
+
+.try {
+    width: 180rpx;
+    height: 180rpx;
+    border-radius: 50%;
+}
+
+.tryBtn1 {
+    position: fixed;
+    width: 90rpx;
+    height: 90rpx;
+    right: 50rpx;
+    bottom: 288rpx;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    text-align: center;
+    color: #0DAF99;
+    box-shadow:0px 0px 8px 0px #ddd;
+}
+
+.tryBtn1 .try1 {
+  position:absolute;
+  top:10rpx;
+  left:35rpx;
+  line-height:1;
+}
+
+.tryBtn1 .try2 {
+  position:absolute;
+  top:57rpx;
+  left:24rpx;
+  font-size:20rpx;
+  width:2em;
+}
+
+.wxParse-inline {
+    color: #0daf99;
+}
+
+.wxParse-p {
+    font-size: 24rpx;
+}
+
+.closeL {
+    position: absolute;
+    top: 0rpx;
+    right: 0rpx;
+    font-size: 50rpx;
+    height: 40rpx;
+    line-height: 40rpx;
+}
+
+.focus {
+    position: fixed;
+    top: 44%;
+    width: 284rpx;
+    height: 130rpx;
+}
+
+.finger {
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-0%);
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-top: 1rpx solid #B5B5B5;
+}
+
+.footer .fimage {
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.footer .ftext {
+  color: #8A8A8A;
+  font-size: 20rpx;
+  height: 44rpx;
+  line-height: 44rpx;
+}
+
+.footer .ftext.active {
+  color: #0DAF99;
+}
+
+.dialog {
+  position: fixed;
+  z-index: 1001;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.dialog .dialog-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0, .3);
+}
+
+.dialog .dialog-box {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+}
+
+.dialog .dialog-box .dialog-top {
+  padding: 40rpx 28rpx;
+  box-sizing: border-box;
+} 
+ 
+.dialog .dialog-box .dialog-bottom {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1rpx solid rgba(0, 0,0,.3);
+  box-sizing: border-box;
+  padding: 10rpx 28rpx;
+  color: rgba(102, 102, 102, 1);
+}
+
+.dialog .dialog-box .dialog-bottom > view {
+  font-size: 28rpx;
+}
+
+.cost-dialog .cost-title {
+  font-size: 30rpx;
+  color: rgba(51, 51, 51, 1);
+  margin-bottom: 10rpx;
+}
+
+.cost-dialog .cost-desc {
+  font-size: 28rpx;
+  color: rgba(102, 102, 102, 1);
+}
+
+.cost-dialog .cost-price {
+  font-size: 36rpx;
+  color: rgba(13, 175, 153, 1);
+}
+
+.cost-dialog .cost-button {
+  width: 288rpx;
+  height: 68rpx;
+  line-height: 68rpx;
+  background: rgba(13, 175, 153, 1);
+  border-radius: 34rpx;
+  font-size: 34rpx;
+  color: #fff;
+}
+.wxParse-span{
+  font-size:14px!important;
+}

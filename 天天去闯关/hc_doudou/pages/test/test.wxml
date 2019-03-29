@@ -1,0 +1,11 @@
+<view>1 显示完后再显示</view>
+<view class="example">
+    <view class="marquee_box">
+        <view class="marquee_text" style="{{orientation}}:{{marqueeDistance}}px;font-size: {{size}}px;">
+      {{text}}
+    </view>
+    </view>
+</view>
+<view class="marquee_container" style="--marqueeWidth--:-{{length}}px;">
+    <view class="marquee_text1" style="animation-duration: {{10*length/windowWidth}}s;">{{text}}</view>
+</view>
